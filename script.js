@@ -4,7 +4,8 @@ let sum=0;
 
 let btntag=document.getElementById("incrementBtn");
 btntag.addEventListener("click",()=>{
-	sum++;
+	
 	alert(sum);
+	sum++;
 	ptag.textContent=sum;
 })
